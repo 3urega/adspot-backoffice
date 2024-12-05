@@ -1,0 +1,3 @@
+En la capa "Query" encontramos laos casos de uso expuestos, es decir, los casos de uso que serán visibles desde un controlador.
+
+En este caso, a diferencia de la capa "Command", los casos de uso no modificarán el sistema, lo dejarán inmutable. Solo devolverán datos, presentados mediante puros DTO, ya sea en forma de "Collection" de "Response" de un caso de uso "service" o bien de la "Response" directamente o bien definiendo una "Response" propia para el caso de uso concreto.
